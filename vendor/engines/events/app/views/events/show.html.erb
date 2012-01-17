@@ -1,0 +1,25 @@
+<% content_for :body_content_title do %>
+  <%= @event.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @event.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Date</h1>
+    <p>
+      <%=raw @event.date %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo</h1>
+    <p>
+      <%= image_fu @event.photo, nil %>
+    </p>
+  </section>
+<% end %>
+<%= render :partial => "/shared/content_page" %>

@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+	font-size: .69em;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#e5e5e5;
+	text-align:left;
+}
+
+h1
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:1.30em;
+	color:#2f6b7f;	
+	}
+	
+a{
+	color:#000;
+	text-decoration:none;
+	}	
+
+a:hover{
+	color:#000;
+	text-decoration:underline;
+	}	
+a:visited
+{
+	color:#000;
+	text-decoration:none;
+	}
+
+
+p
+{
+	padding:0px;
+	margin:0px;
+	text-align:justify;
+	}
+
+*
+{
+	padding:0px;
+	margin:0px;
+	}
+
+ul, li
+{
+	padding:0px;
+	margin:0px;
+	}
+
+
+.master
+{
+	width:100%;
+	height:100%;
+	}
+	
+.maindiv
+{
+	width:800px;
+	background-color:#FFF;
+	min-height:98px;
+	padding-top:22px;
+	padding-bottom:22px;
+	}
+	
+.logo
+{
+	width:153px;
+	height:98px;
+	margin-right:579px;
+	float:left;
+	}
+	
+.help
+{
+	width:68px;
+	margin-top:65px;
+	float:left
+	}
+	
+.wrapper
+{
+	width:760px;
+	height:420px;
+
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	background-color:#78bbd1;
+	float:left;
+	clear:both;
+	}
+	
+.floatrRight
+{
+	float:right;
+	}
+.wrapperLeft
+{
+	width:460px;
+	height:360px;
+	-webkit-border-radius:10px;-moz-border-radius: 10px;border-radius:10px;
+	border-bottom:1px solid #3c5d68;
+	background-color:#FFF;
+	float:left;
+	padding:10px;
+	margin-right:40px;
+	}
+	
+.ReadMore
+{
+
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#2f6b7f;
+	color:#FFF;
+	text-align:center;
+	float:right;
+	-webkit-border-radius:12px;-moz-border-radius: 12px;border-radius:12px;
+	border-bottom:1px solid #7f7f7f;
+	}
+
+.ReadMore a
+{
+	color:#FFF;
+	text-decoration:none
+	}
+
+
+.wrapperRight
+{
+	width:220px;
+	height:360px;
+	-webkit-border-radius:10px;-moz-border-radius: 10px;border-radius:10px;
+	border-bottom:1px solid #3c5d68;
+	background-color:#FFF;
+	float:left;
+	padding:10px;
+	}
+	
+.image
+	{
+		width:81px;
+		height:80px;
+		float:left;
+		margin-right:4px;
+		margin-bottom:83px;
+		}
+
+.wrapperRight .spacer
+{	
+	width:220px;
+	height:17px;
+	float:left;
+	}
+	
+.wrapperRight .content
+{
+	width:135px;
+	height:163px;
+	float:left;
+	text-align:left;
+	}
+
+
+.wrrapperLeftText
+{
+	width:460px;
+	height:125px;
+	float:left;
+	margin-top:20px;
+	text-align:left;
+	text-align:justify;
+	}
+
+
+
+.SponcerWrapper
+{
+	width:760px;
+	height:199px;
+	float:left;
+	background-color:#626162;
+	border-top:1px solid #363636;
+	border-bottom:1px solid #1c3943;
+	padding:20px;
+	clear:both;
+	}
+	
+
+	
+.SponcerWrapper .ContentHolder
+{
+	width:740px;
+	height:160px;
+	-webkit-border-radius:10px;-moz-border-radius: 10px;border-radius:10px;
+	border-bottom:1px solid #3c5d68;
+	background-color:#FFF;
+	padding:10px; 
+	float:left;
+	}
+	
+.SponcerWrapper .LogoHolder
+{
+	height:62px;
+	float:left;
+	margin:3px 27px 3px 27px;;
+	}
+	
+
+.bottom
+{
+	width:760px;
+	height:170px;
+	border-bottom:1px solid #808080;
+	background-color:#2f6b7f;
+	padding:15px 20px 15px 20px;;
+	float:left;
+	text-align:left;
+	color:#f5ce75;
+	}
+
+.bottom .MyTeam
+{	
+	width:168px;
+	float:left;
+	height:100%;
+	}
+
+.bottom .MyTeam h1
+{	
+	color:#f5ce75;
+	font-size:1.65em;
+	margin-bottom:5px;
+	text-shadow: 1px 1px 1px #222222;	
+	}
+	
+.bottom .EnterStats
+{
+	width:360px;
+	float:left;
+	height:100%;
+	padding-top:19px;
+	padding-left:52px;
+	}
+
+.bottom .EnterStats .button
+{
+	width:110px;
+	float:left;
+	height:24px;
+	-webkit-border-radius:10px;-moz-border-radius: 10px;border-radius:10px;
+	border-bottom:1px solid #3c5d68;
+	text-align:center;
+	padding-top:3px;
+	font-size:1.50em;
+	background-color:#fcd886;
+	color:#626162;
+	}
+
+.bottom .EnterStats .button .a
+{
+	color:#626162;
+	text-decoration:none;
+	}
+	
+
+.bottom .Search
+{
+	width:180px;
+	float:left;
+	height:100%;
+	color:#FFf;
+	
+	}
+
+.bottom .Search h1
+{	
+	color:#f5ce75;
+	font-size:1.65em;
+	margin-bottom:5px;
+	text-shadow: 1px 1px 1px #222222;	
+}
+
+
+.bottom .Search .Go
+{	
+	width:40px;
+	-webkit-border-radius:8px;-moz-border-radius: 8px;border-radius:8px;
+	border-bottom:1px solid #17353f;
+	text-align:center;
+	padding-bottom:1px;
+	font-size:1.50em;
+	background-color:#fff;
+	color:#007398;
+	margin-left:5px;
+	}
+
+.footer
+{
+	width:800px;
+	height:29px;
+	float:left;
+	background:#FFF;
+	padding-top:20px;
+	
+	}
+	
+	
+	
+	
+	
+	
+
