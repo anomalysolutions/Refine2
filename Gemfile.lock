@@ -61,6 +61,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.17.2)
+    mysql2 (0.3.11)
     orm_adapter (0.0.6)
     polyglot (0.3.3)
     rack (1.2.5)
@@ -159,6 +160,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  mysql2
   refinerycms (~> 1.0.9)
   refinerycms-events (= 1.0)!
   refinerycms-i18n (~> 1.0.0)
